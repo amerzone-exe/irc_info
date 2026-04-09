@@ -15,9 +15,18 @@ Option a implementer de la commande MODE:
 
 *activer les options avec + et les enlever avec - *
 
-i: Permet de mettre le channel en mode inviter et donc de pouvoir utiliser la commande INVITE
-t: permet de mettre le changement de TOPIC possible uniquement en mode OPERATOR
-k: Permet de mettre un password pour un channel.
-o: Donner ou enlever les privilege d'OPERATOR a quelqu'un.
-l: Permet de fixer une limite d'utilisateur.
+- i: Permet de mettre le channel en mode inviter et donc de pouvoir utiliser la commande INVITE
+- t: permet de mettre le changement de TOPIC possible uniquement en mode OPERATOR
+- k: Permet de mettre un password pour un channel.
+- o: Donner ou enlever les privilege d'OPERATOR a quelqu'un.
+- l: Permet de fixer une limite d'utilisateur.
 
+note:
+
+- Le channel est ouvert a tous tant que le mode invite only n'est pas active.
+De plus lorsque le channel n' est pas en invite only tous le monde peut inviter quelqu'un sur le channel.
+- Lorsqu'un user rejoint un channel qui n'existe pas celui ci est automatiquement cree et le user devient un OPERATOR.
+- Desactiver de base la possibilite d'envoyer un msg dans un channel qu'on a pas rejoint.
+Autoriser seulement les messages prive entre les clients.
+
+Commande client:
