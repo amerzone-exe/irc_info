@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Server.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amerzone <amerzone@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jpiquet <jpiquet@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/09 12:20:30 by amerzone          #+#    #+#             */
-/*   Updated: 2026/04/09 17:47:12 by amerzone         ###   ########.fr       */
+/*   Updated: 2026/04/14 13:28:20 by jpiquet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,21 +42,22 @@ class Server
 		std::string						_name;
 		std::string						_password;
 		std::map<std::string, Client>	_clients;
+
 		/*Une liste d'operator, a voir si on creer une class operator ou on utilise client*/
 		std::map<std::string, Channel>	_channels;
 	
 		u_int64_t						_numberClients;
-		
+
 		std::string						_addressIP;
 		u_int8_t						_port;
 
 	public:
 	/* Fonction necessaire
-	
+
 	{ PARSING }
 	 - Parsing et stockages des arguments (Port, password)
 	 - Parsing des requetes du client, tokenisation.
-	
+
 	{ CLIENT }
 	- Accepter la demande d'un client + le creer.
 	- Checker si il a le bon password.

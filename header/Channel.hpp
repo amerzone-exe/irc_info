@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Channel.hpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amerzone <amerzone@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jpiquet <jpiquet@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/08 13:17:04 by amerzone          #+#    #+#             */
-/*   Updated: 2026/04/09 17:10:10 by amerzone         ###   ########.fr       */
+/*   Updated: 2026/04/14 13:27:15 by jpiquet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ class Channel
 		- Enlever un Client du mode operator.
 		- Fixer la limite d'utilisateur possible.
 		
-		- NAMES: afficher toutes la liste des personnes presentes sur le channel.
+		- NAMES: afficher toutes la liste des personnes presentes sur le channel. (optionnel)
 
 		*/
 		

@@ -27,6 +27,7 @@ note:
 De plus lorsque le channel n' est pas en invite only tous le monde peut inviter quelqu'un sur le channel.
 - Lorsqu'un user rejoint un channel qui n'existe pas celui ci est automatiquement cree et le user devient un OPERATOR.
 - Desactiver de base la possibilite d'envoyer un msg dans un channel qu'on a pas rejoint.
-Autoriser seulement les messages prive entre les clients.
+Autoriser seulement les messages prive entre les clients et pas  dún client a un server.
 
 Commande client:
+
